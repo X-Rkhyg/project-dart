@@ -493,7 +493,7 @@
          },
          "icon": {
             "raster_icon": {
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_word.png/1.7.32/asset"
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_word.png/1.7.33/asset"
             }
          },
          "location": "hovercard",
@@ -506,7 +506,7 @@
          },
          "icon": {
             "raster_icon": {
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_excel.png/1.7.32/asset"
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_excel.png/1.7.33/asset"
             }
          },
          "location": "hovercard",
@@ -519,7 +519,7 @@
          },
          "icon": {
             "raster_icon": {
-               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_power_point.png/1.7.32/asset"
+               "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_power_point.png/1.7.33/asset"
             }
          },
          "location": "hovercard",
@@ -541,9 +541,9 @@
       "description": "Access Microsoft 365 apps for free",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_dark.png/1.7.32/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_hc.png/1.7.32/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_light.png/1.7.32/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_dark.png/1.7.33/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_hc.png/1.7.33/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_light.png/1.7.33/asset"
          }
       },
       "id": "64be4f9b-3b81-4b6e-b354-0ba00d6ba485",
@@ -551,16 +551,6 @@
       "locales": [ "af", "am", "ar", "as", "az", "bg", "bn_IN", "bs", "ca", "ca_Es_VALENCIA", "cs", "cy", "da", "de", "el", "en", "en_GB", "es", "es_MX", "et", "eu", "fa", "fi", "fil", "fil", "fr", "fr_CA", "ga", "gd", "gl", "gu", "he", "hi", "hr", "hu", "hy", "id", "is", "it", "ja", "ka", "kk", "km", "kn", "ko", "kok", "kok", "lb", "lo", "lt", "lv", "mi", "mk", "ml", "mr", "ms", "mt", "nb", "ne", "nl", "nn", "or", "pa", "pl", "pt_BR", "pt_PT", "quz", "ro", "ru", "sk", "sl", "sq", "sr_Cyrl_BA", "sr_Cyrl_RS", "sr_Latn_RS", "sv", "ta", "te", "th", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "zh_CN", "zh_TW" ],
       "manifest_version": 3,
       "name": "Microsoft 365",
-      "notifications": {
-         "awareness_prompts|flight:msEdgeHubAppOfficeAwarenessPrompts": {
-            "bubble_notifications": {
-               "domains": [ "www.office.com", "www.microsoft365.com" ],
-               "text": "Office is now Microsoft 365. Use for free!",
-               "text|flight:msRemoveStringFromChromiumCode": "Use Microsoft 365 for free!"
-            }
-         },
-         "enabled": true
-      },
       "on_by_default": true,
       "preferred_side_pane_width|flight:msEdgeHubAppOfficeCom": 920,
       "preferred_side_pane_width|flight:msEdgeHubAppOfficePlusChina": 885,
@@ -569,7 +559,7 @@
          "url|flight:msEdgeHubAppOfficeCom": "https://www.office.com",
          "url|flight:msEdgeHubAppOfficePlusChina": "https://www.officeplus.cn/?sid=shoreline&endpoint=OPPC&source=OPCNshoreline"
       },
-      "version": "1.7.32"
+      "version": "1.7.33"
    }, {
       "auto_show": {
          "dsat_flyout": {
@@ -640,9 +630,9 @@
       "description": "Check email while staying in your flow",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_dark.png/1.9.10/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_hc.png/1.9.10/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_light.png/1.9.10/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_dark.png/1.9.11/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_hc.png/1.9.11/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_light.png/1.9.11/asset"
          }
       },
       "id": "8682d0fa-50b3-4ece-aa5b-e0b33f9919e2",
@@ -681,12 +671,6 @@
       },
       "name": "Outlook",
       "notifications": {
-         "awareness_prompts|flight:msEdgeHubAppOutlookAwarenessPrompts": {
-            "bubble_notifications": {
-               "domains": [ "outlook.live.com", "outlook.com", "outlook-sdf.office.com" ],
-               "text": "Check your email while staying in your work flow!"
-            }
-         },
          "enabled": true,
          "title_change_clear_pattern": ".*clear-red-dot.*"
       },
@@ -698,7 +682,7 @@
       },
       "trusted_domains": [ "live.com", "office.com", "microsoftonline.com", "microsoft.com", "office365.com" ],
       "trusted_types": [ "default", "dompurify" ],
-      "version": "1.9.10"
+      "version": "1.9.11"
    }, {
       "default_locale": "en",
       "description": "Empower people to express themselves creatively",
@@ -2083,6 +2067,41 @@
       "name": "Game view",
       "target": {
          "url": "https://www.msn.com/widgets/fullpage/gaming/widget?experiences=GamingChannel"
+      },
+      "version": "1.0.0"
+   }, {
+      "auto_show": {
+         "enabled": true,
+         "fre_notification": {
+            "enabled": true,
+            "header": "We opened the news feed in this sidebar so you can continue browsing.",
+            "text": "We opened the news feed in this sidebar so you can continue browsing."
+         },
+         "lifetime": "tab",
+         "settings_description": "Allows links from different Windows OS surfaces to open Microsoft Start in the sidebar when Microsoft Edge is launched.",
+         "settings_title": "Automatically open Microsoft Start in the sidebar"
+      },
+      "capabilities": {
+         "hide_navigation_buttons": true,
+         "resize_disabled": true
+      },
+      "default_locale": "en",
+      "description": "Continue browsing your news feed on Microsoft Start",
+      "flights": [ "msEdgeHubAppStart", "msEdgeTransientAppAutoOpen" ],
+      "icon": {
+         "raster_icon": {
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.0.0/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.0.0/asset"
+         }
+      },
+      "id": "b7a8e9f2-6b0d-4c5b-ae7d-8a6e1f2c7a6f",
+      "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1lmCC9ljvQph6LgOF/UCFLZjItgaIKAKYb3MHPUvyI7fj+r3v/T6Y2mrHMljC0NXXzpWYly7T1ZVdkrJ9NiLHnRFNa/QFFUG7mMkcrzHHEseFFxfLsWafEHioqZIhZbOdlHd/8jI0GKYWVBz79J/t3AYFM/iE3RDodr2+AqKm3RLEOcoXvaI9Y5YTLDrApHFxNsJby9qewwP2tDvEg/ojW6gwyvw2d3k1RdM5DhHp/9AESBo/hB9pfLuIzTBq2C2r6JXx3YsHKbGGpCb94JATbufY1JyF3qUl64V0IYKIoo4a58Lut67lqaMrQXiVXWLM5l7qmbwsmWWRKwL2mCIEQIDAQAB",
+      "locales": [ "en" ],
+      "manifest_version": 3,
+      "name": "Microsoft Start",
+      "pin_by_default": true,
+      "target": {
+         "url": "https://www.msn.com/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub"
       },
       "version": "1.0.0"
    } ],
